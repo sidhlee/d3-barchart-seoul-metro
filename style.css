@@ -34,6 +34,9 @@ form #month {
   background-color: lightblue;
 }
 
+main {
+  margin: auto;
+}
 
 #svg {
   

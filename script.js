@@ -135,7 +135,8 @@ const Chart = (function () {
 		margin.left = 50;
 		margin.bottom = 50;
 
-		width = (winWidth < 1000) ? winWidth - margin.left - margin.right : 1000
+		width = (winWidth < 1000 && winWidth >= 500) ? winWidth * 0.9 - margin.left - margin.right :
+				(winWidth < 500) ? winWidth - margin.left - margin.right: 1000
 		height = 0.7 * width //aspect ratio: 0.7
 	}
 
