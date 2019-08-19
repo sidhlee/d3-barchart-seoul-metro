@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  position: relative;
+}
+
+nav {
+  margin-bottom: 3em;
+  
+  
+}
+form {
+  /* border: 1px solid green; */
+  display:flex;
+  justify-content: center;
+}
+
+form #month {
+  margin-right: 2em;
+}
+
+#submitBtn {
+  margin-left: 1.5em; 
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+#submitBtn:hover {
+  background-color: lightblue;
+}
+
+
+#svg {
+  
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 800px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+}
+
+.tooltip {
+  position: absolute;
+  color: black;
+  background-color: white;
+  border: 1px solid rgba(200,200,200,0.8);
+  border-radius: 5px;
+  padding: 0 20px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.3);
+}
+

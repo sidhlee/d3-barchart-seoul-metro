@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>서울시 여의나루역 시간대별 승하차 인원 정보</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1>서울시 여의나루역 시간대별 승하차 인원 정보</h1>
+  </header>
+  <nav id="nav">
+    <form>
+      <label for="month">년월</label>
+      <select id="month" name="month" autofocus="true">
+      </select>
+      <input type="radio" name="onOff" id="on" value="1">
+      <label for="on">승차</label>
+      <input type="radio" name="onOff" id="off" value="0">
+      <label for="off">하차</label>
+      <button id="submitBtn" type="submit">출력</button>
+    </form>
+  </nav>
+  <main>
+    <svg id="svg"></svg>
+  </main>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js'></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
